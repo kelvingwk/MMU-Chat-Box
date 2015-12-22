@@ -5,6 +5,17 @@ Rails.application.routes.draw do
   resources :posts
   root 'static_pages#home'
   get 'about' => 'static_pages#about'
+
+
+  unauthenticated :user do
+    devise_scope :user do
+      get "/" => "devise/sessions#new"
+    end
+  end
+
+  resources :conversations do
+    resources :messages
+  end
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

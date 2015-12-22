@@ -3,7 +3,6 @@ class CreateStudents < ActiveRecord::Migration
     create_table :students do |t|
       t.string :mmuid
       t.string :name
-      t.text :message
 
       t.timestamps null: false
     end

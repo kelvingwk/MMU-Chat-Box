@@ -1,9 +1,11 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  mmuid: MyString
-  name: MyString
+  body: MyText
+  conversation_id: 
+  user_id: 
 
 two:
-  mmuid: MyString
-  name: MyString
+  body: MyText
+  conversation_id: 
+  user_id: 
