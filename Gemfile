@@ -32,6 +32,12 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'bootstrap-sass'
 
+gem 'private_pub'
+
+gem 'thin'
+
+gem 'faye'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
@@ -54,11 +60,7 @@ group :development, :test do
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 
-gem 'private_pub'
 
-gem 'thin'
-
-gem 'faye'
 
 
 
